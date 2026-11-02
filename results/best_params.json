@@ -1,0 +1,37 @@
+{
+  "Gaussian": {
+    "sigma": 3.0
+  },
+  "Median": {
+    "size": 9
+  },
+  "Wiener": {
+    "size": 9
+  },
+  "Bilateral": {
+    "sigma_color": 0.8,
+    "sigma_space": 5.0
+  },
+  "Guided": {
+    "radius": 4,
+    "eps": 0.16
+  },
+  "TV (Chambolle)": {
+    "weight": 0.16
+  },
+  "Perona-Malik AD": {
+    "n_iter": 30,
+    "kappa": 0.1,
+    "option": 2
+  },
+  "SRAD": {
+    "n_iter": 100,
+    "dt": 0.2,
+    "q0_decay": 0.05
+  },
+  "NLM": {
+    "h_factor": 1.0,
+    "patch_size": 7,
+    "patch_distance": 10
+  }
+}
